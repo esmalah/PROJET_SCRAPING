@@ -2,3 +2,15 @@ requests
 beautifulsoup4
 lxml
 nltk
+faiss-cpu
+sentence-transformers
+transformers
+torch
+sentencepiece
+keybert
+sentence-transformers
+fastapi
+uvicorn
+streamlit
+
+

@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  scraper:
+    build: .
+    container_name: bbc_scraper
+    volumes:
+      - ./data:/app/data 
+    command: python scripts/scraper.py
